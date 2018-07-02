@@ -55,9 +55,12 @@ body .wrap header .container {
 }
 body .wrap header .container h1 {
   float: left;
-  width: 200px;
-  height: 84px;
-  padding-top: 16px;
+  color: #fff;
+  font-size: 300%;
+  font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+  /* @include single-text-shadow; */
+  text-shadow: 0 0 6px #000;
+  text-align: center;
 }
 body .wrap header .container .gnavi {
   width: 540px;

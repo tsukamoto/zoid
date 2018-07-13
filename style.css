@@ -41,10 +41,14 @@ body a:hover {
   color: #336600;
   text-decoration: underline;
 }
+body .wrap .container {
+  width: 1024px;
+  margin: 0 auto;
+}
 body .wrap header {
   width: 100%;
   height: 100px;
-  background: #f3ede3;
+  background: #effebc;
 }
 body .wrap header .container {
   width: 1024px;
@@ -54,18 +58,25 @@ body .wrap header .container {
   overflow: visible;
 }
 body .wrap header .container h1 {
-  float: left;
+  width: 100%;
+}
+body .wrap header .container h1 a {
   color: #fff;
-  font-size: 300%;
+  font-size: 160%;
   font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
   /* @include single-text-shadow; */
   text-shadow: 0 0 6px #000;
+  display: block;
   text-align: center;
+}
+body .wrap header .container h1 a:hover {
+  color: #336600;
+  text-decoration: none;
 }
 body .wrap header .container .gnavi {
   width: 540px;
   height: 100px;
-  float: left;
+  float: none;
   margin-left: 80px;
 }
 body .wrap header .container .gnavi ul {
@@ -147,7 +158,6 @@ body .wrap .main-img h2 {
   text-align: center;
 }
 body .wrap .content {
-  width: 1120px;
   margin: 0 auto;
   clear: both;
 }
@@ -163,10 +173,9 @@ body .wrap .content h3.redline span {
 }
 body .wrap footer {
   width: 100%;
-  background: #f5eee6;
+  background: #a1bb80;
 }
 body .wrap footer .container {
-  width: 1120px;
   margin: 0 auto;
   position: relative;
 }
